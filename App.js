@@ -1,9 +1,9 @@
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import React, { useCallback, useMemo, useRef, useState } from 'react';
 import { StyleSheet, Text, View, FlatList, SafeAreaView } from 'react-native';
 import ListItem from './components/ListItem';
 import Chart from "./components/Chart";
 import { SAMPLE_DATA } from "./assets/data/sample-date";
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import {
   BottomSheetModal,
   BottomSheetModalProvider,
